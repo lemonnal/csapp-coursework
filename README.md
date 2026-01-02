@@ -1,6 +1,7 @@
 # CSAPP 学习仓库
 
-> 《深入理解计算机系统》（Computer Systems: A Programmer's Perspective）课程学习库
+> 《深入理解计算机系统》（Computer Systems: A Programmer's Perspective）课程学习库  
+例程部分由AI生成，本人自己编写的事后会补上）  
 
 ## 📚 项目概述
 
