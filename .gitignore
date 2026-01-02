@@ -1,0 +1,131 @@
+# CSAPP 学习仓库 .gitignore
+
+# 编译产物
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dylib
+*.d
+
+# 可执行文件
+program
+test
+bomb
+proxy
+tsh
+malloc
+
+# Core dumps
+core
+core.*
+
+# GDB
+.gdb_history
+.gdbinit
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw*
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+*.elc
+auto-save-list
+tramp
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+*.log
+*.log.*
+
+# Valgrind
+valgrind-out.txt
+cachegrind.out.*
+callgrind.out.*
+
+# gprof
+gmon.out
+
+# Perf
+perf.data
+perf.data.old
+
+# 临时文件
+*.tmp
+*.temp
+tmp/
+temp/
+
+# 实验特定文件
+labs/data-lab/dlc
+labs/data-lab/btest
+labs/data-lab/fshow
+labs/data-lab/ishow
+labs/bomb-lab/bomb
+labs/attack-lab/ctarget
+labs/attack-lab/rtarget
+labs/cache-lab/csim
+labs/cache-lab/test-trans
+labs/shell-lab/tsh
+labs/shell-lab/tshref
+labs/malloc-lab/mdriver
+labs/malloc-lab/malloc.c
+labs/proxy-lab/proxy
+labs/proxy-lab/tiny
+
+# 编译器和工具生成的文件
+*.asm
+*.i
+*.ii
+
+# 备份文件
+*.bak
+*.backup
+*.orig
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+
+# IDE 特定文件
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# 文档生成的文件
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
