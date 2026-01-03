@@ -1,5 +1,5 @@
 # CSAPP 学习仓库 .gitignore
-
+/csapp
 # 编译产物
 *.o
 *.out
